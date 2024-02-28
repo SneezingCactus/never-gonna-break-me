@@ -32,7 +32,7 @@ document.addEventListener('click', function() {
     curImage?.classList.remove('next');
 
     nextImage = document.createElement('img');
-    nextImage.src = `/tables/table${tableCounter}.jpg`;
+    nextImage.src = `tables/table${tableCounter}.jpg`;
     nextImage.classList.add('next');
     document.body.appendChild(nextImage);
 
